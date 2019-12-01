@@ -3,11 +3,23 @@ package inventorysystemapp;
 import java.util.ArrayList;
 
 public class Supplier {
-    private ArrayList<String>Supplierlist;
+    private  boolean supplierdata; // private = restricted access
 
-    public void addsupplier(  String supplier){
-        Supplierlist.add(supplier);
+    // Getter
+    public boolean getsupplierdata() {
+
+        return supplierdata;
     }
+
+    // Setter
+    public void setsupplierdata(boolean supplierdata) {
+        this.supplierdata = supplierdata;}
 }
 
 
+boolean Isupplierprivilege;
+    private ArrayList<String> Quantity;
+
+    public void addQuntity(  String quantity){
+        Quantity.add(quantity);
+    }

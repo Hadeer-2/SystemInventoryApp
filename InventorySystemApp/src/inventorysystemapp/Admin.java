@@ -16,7 +16,7 @@ public class Admin {
     }
 
 }
-private boolean  IAdminProductriviliege ; //an interface (error)
+ boolean  IAdminProductriviliege ; //an interface (error)
 boolean Isupplierservice ;//an interface
 private boolean supplierList ;
 private boolean clientservice;
@@ -27,16 +27,16 @@ private boolean clientservice;
     }
 
 
-    private ArrayList<String> Supplierlist;
+    private ArrayList<String> Supplier;
 
     public void addsupplier(  String supplier){
-        Supplierlist.add(supplier);
+        Supplier.add(supplier);
     }
-    public void removesupplier(  String supplier){
-        Supplierlist.remove(supplier);
+    public void supplier(  String supplier){
+        Supplier.remove(supplier);
     }
     public void deleteproduct(  String product){
-        Supplierlist.remove(product);
+        Supplier.remove(product);
     }
 
 
